@@ -3,11 +3,14 @@ import React from 'react';
 function RoomList({ rooms }) {
   return (
     <div>
-      <h2>Room List</h2>
+      <h2>Search Results</h2>
       <ul>
         {rooms.map(room => (
           <li key={room.id}>
-            {room.name} - {room.price}
+            <h3>{room.name}</h3>
+            <p>Description: {room.description}</p>
+            <p>Price: {room.price}</p>
+            {/* Add more room details here */}
           </li>
         ))}
       </ul>
@@ -16,3 +19,4 @@ function RoomList({ rooms }) {
 }
 
 export default RoomList;
+
