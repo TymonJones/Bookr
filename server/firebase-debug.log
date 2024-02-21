@@ -1,0 +1,47 @@
+[debug] [2024-02-21T05:11:48.253Z] ----------------------------------------------------------------------
+[debug] [2024-02-21T05:11:48.254Z] Command:       /usr/local/bin/firebase /Users/tymonjones/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hosting
+[debug] [2024-02-21T05:11:48.255Z] CLI Version:   13.3.0
+[debug] [2024-02-21T05:11:48.255Z] Platform:      darwin
+[debug] [2024-02-21T05:11:48.255Z] Node Version:  v18.5.0
+[debug] [2024-02-21T05:11:48.256Z] Time:          Tue Feb 20 2024 21:11:48 GMT-0800 (Pacific Standard Time)
+[debug] [2024-02-21T05:11:48.256Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-21T05:11:48.306Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-21T05:11:48.306Z] > authorizing via signed-in user (tymonjjones@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/tymonjones
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-21T05:11:48.310Z] Using project from CLI flag: bookr-db0e3
+[debug] [2024-02-21T05:11:48.311Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookr-db0e3 [none]
+[debug] [2024-02-21T05:11:48.695Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookr-db0e3 200
+[debug] [2024-02-21T05:11:48.695Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookr-db0e3 {"projectId":"bookr-db0e3","projectNumber":"531696080544","displayName":"Bookr","name":"projects/bookr-db0e3","resources":{"hostingSite":"bookr-db0e3"},"state":"ACTIVE","etag":"1_78d6ff6f-6b6e-4a6e-a709-a19e8ce43965"}
+[info] i  Using project bookr-db0e3 (Bookr) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-21T05:11:48.721Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookr-db0e3 [none]
+[debug] [2024-02-21T05:11:49.138Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookr-db0e3 200
+[debug] [2024-02-21T05:11:49.138Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookr-db0e3 {"projectId":"bookr-db0e3","projectNumber":"531696080544","displayName":"Bookr","name":"projects/bookr-db0e3","resources":{"hostingSite":"bookr-db0e3"},"state":"ACTIVE","etag":"1_78d6ff6f-6b6e-4a6e-a709-a19e8ce43965"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

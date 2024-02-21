@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 firebase-admin = "*"
 flask = "*"
+sqlalchemy = "*"
+python-dotenv = "*"
+google-cloud-firestore = "*"
 
 [dev-packages]
 
